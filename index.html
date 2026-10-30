@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Syahmi Afiq · PC Image</title>
+<meta name="description" content="Syahmi Afiq, Senior Sales at PC Image. Laptops, PCs, custom PC builds, monitors and corporate orders. WhatsApp 019-676 1077.">
+<meta name="theme-color" content="#8a1c1c">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Syahmi Afiq · Senior Sales, PC Image">
+<meta property="og:description" content="Laptops, PCs, custom builds, monitors & corporate orders. Tap to WhatsApp or save my contact.">
+<meta property="og:url" content="https://syhsolar.github.io/card/">
+<meta property="og:image" content="https://syhsolar.github.io/card/og.jpg">
+<link rel="icon" href="icon.png">
+<link rel="apple-touch-icon" href="icon.png">
+<style>
+  :root {
+    --brand: #8a1c1c;
+    --brand-ink: #ffffff;
+    --wa: #128043;
+    --brand-text: #8a1c1c;
+    --bg: #f3f1f1;
+    --card: #ffffff;
+    --ink: #1a1a1a;
+    --muted: #666;
+    --line: #e6e2e2;
+    --soft: #fdf6f6;
+    --field: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --brand: #b03024;
+      --brand-text: #ff9b8f;
+      --bg: #121010;
+      --card: #1d1a1a;
+      --ink: #f2eeee;
+      --muted: #a9a2a2;
+      --line: #332d2d;
+      --soft: #2a1f1f;
+      --field: #151313;
+    }
+  }
+  :root[data-theme="dark"] {
+    --brand: #b03024;
+    --brand-text: #ff9b8f;
+    --bg: #121010;
+    --card: #1d1a1a;
+    --ink: #f2eeee;
+    --muted: #a9a2a2;
+    --line: #332d2d;
+    --soft: #2a1f1f;
+    --field: #151313;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font: 16px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  main { max-width: 440px; margin: 0 auto; padding: 16px 16px 40px; }
+  .card { background: var(--card); border-radius: 18px; overflow: hidden; box-shadow: 0 1px 2px rgba(0,0,0,.06), 0 8px 24px rgba(0,0,0,.06); }
+  .stripe { height: 6px; background: var(--brand); }
+  header { text-align: center; padding: 24px 20px 20px; }
+  .logo { display: inline-block; background: #fff; padding: 10px 14px; border-radius: 10px; }
+  .logo img { display: block; width: 220px; max-width: 100%; height: auto; }
+  h1 { font-size: 26px; margin: 18px 0 2px; letter-spacing: -.01em; }
+  .role { margin: 0; color: var(--muted); }
+  .role b { color: var(--brand-text); font-weight: 600; }
+
+  .actions { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; padding: 0 20px 20px; }
+  .btn {
+    display: flex; align-items: center; justify-content: center; gap: 8px;
+    min-height: 52px; padding: 10px 12px; border-radius: 12px; border: 1px solid var(--line);
+    background: var(--card); color: var(--ink); font: inherit; font-weight: 600; text-decoration: none; cursor: pointer;
+  }
+  .btn svg { width: 20px; height: 20px; flex: none; }
+  .btn.wa { background: var(--wa); border-color: var(--wa); color: #fff; grid-column: 1 / -1; font-size: 17px; }
+  .btn.primary { background: var(--brand); border-color: var(--brand); color: var(--brand-ink); }
+  .btn:active { transform: translateY(1px); }
+  .btn:focus-visible, select:focus-visible, input:focus-visible { outline: 3px solid color-mix(in srgb, var(--brand) 45%, transparent); outline-offset: 2px; }
+
+  .promo { margin: 0 20px 20px; padding: 12px 14px; border-radius: 12px; background: var(--soft); border: 1px solid color-mix(in srgb, var(--brand) 25%, transparent); }
+  .promo small { display: block; font-size: 12px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--brand-text); }
+
+  section { padding: 18px 20px; border-top: 1px solid var(--line); }
+  h2 { font-size: 13px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin: 0 0 12px; }
+  .services { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+  .services li { display: flex; gap: 12px; align-items: flex-start; }
+  .services .dot { flex: none; width: 34px; height: 34px; border-radius: 10px; background: var(--soft); color: var(--brand-text); display: grid; place-items: center; }
+  .services .dot svg { width: 18px; height: 18px; }
+  .services b { display: block; }
+  .services span { color: var(--muted); font-size: 14px; }
+
+  form { display: grid; gap: 10px; }
+  label { display: grid; gap: 4px; font-size: 14px; font-weight: 600; }
+  select, input {
+    width: 100%; min-height: 46px; padding: 10px 12px; border-radius: 10px; border: 1px solid var(--line);
+    background: var(--field); color: var(--ink); font: inherit; font-weight: 400;
+  }
+  .row { display: grid; grid-template-columns: 1fr 96px; gap: 10px; }
+  form .btn { margin-top: 4px; }
+
+  .socials { display: flex; flex-wrap: wrap; gap: 8px; }
+  .socials a { display: inline-flex; align-items: center; gap: 6px; padding: 8px 12px; border-radius: 999px; border: 1px solid var(--line); color: var(--ink); text-decoration: none; font-size: 14px; font-weight: 600; }
+  .socials svg { width: 16px; height: 16px; }
+
+  .share { display: grid; grid-template-columns: 1fr auto; gap: 16px; align-items: center; }
+  .share img { width: 104px; height: 104px; border-radius: 8px; background: #fff; padding: 4px; }
+  .share p { margin: 0 0 10px; color: var(--muted); font-size: 14px; }
+  .toast { position: fixed; left: 50%; bottom: 24px; transform: translateX(-50%); background: #222; color: #fff; padding: 10px 16px; border-radius: 10px; font-size: 14px; opacity: 0; transition: opacity .2s; pointer-events: none; }
+  .toast.show { opacity: 1; }
+  footer { text-align: center; color: var(--muted); font-size: 12px; margin-top: 16px; }
+  [hidden] { display: none !important; }
+</style>
+</head>
+<body>
+<main>
+  <article class="card">
+    <div class="stripe"></div>
+    <header>
+      <div class="logo"><img src="logo.jpg" alt="PC Image" width="373" height="55"></div>
+      <h1>Syahmi Afiq</h1>
+      <p class="role"><b>Senior Sales</b> · PC Image</p>
+      <p class="role">Mid Valley Southkey, Johor Bahru</p>
+    </header>
+
+    <div class="actions">
+      <a class="btn wa" id="wa" href="https://wa.me/60196761077?text=Hi%20Syahmi%2C%20I%20got%20your%20card.%20" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.6.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.2 2.2 2.2 0 0 0 .2-1.3c-.1-.1-.3-.2-.6-.3Z"/></svg>
+        WhatsApp me
+      </a>
+      <a class="btn" href="tel:+60196761077">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2Z"/></svg>
+        Call
+      </a>
+      <a class="btn" href="mailto:syhsolar@outlook.com">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>
+        Email
+      </a>
+      <a class="btn primary" href="syahmi.vcf" download="Syahmi-Afiq-PC-Image.vcf" style="grid-column: 1 / -1">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M19 8v6M22 11h-6"/></svg>
+        Save my contact
+      </a>
+    </div>
+
+    <!-- PROMO: change the text below each month. Delete the whole <div> to hide it. -->
+    <div class="promo">
+      <small>This month</small>
+      Ask me about the latest laptop &amp; PC promos. Trade-in and instalment options available.
+    </div>
+
+    <section>
+      <h2>What I can help with</h2>
+      <ul class="services">
+        <li><span class="dot"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M2 20h20"/></svg></span><div><b>Laptops &amp; PCs</b><span>All major brands for home, study and work</span></div></li>
+        <li><span class="dot"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="2"/><circle cx="12" cy="15" r="3"/><path d="M10 6h4"/></svg></span><div><b>Custom PC builds</b><span>Gaming, editing and workstation builds to your budget</span></div></li>
+        <li><span class="dot"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg></span><div><b>Monitors &amp; accessories</b><span>Monitors, printers, storage, networking and peripherals</span></div></li>
+        <li><span class="dot"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 9h1M14 9h1M9 13h1M14 13h1M9 17h1M14 17h1"/></svg></span><div><b>Corporate &amp; bulk orders</b><span>Quotations and proforma invoices for companies and schools</span></div></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Request a quotation</h2>
+      <form id="quote">
+        <label>What do you need?
+          <select name="item" required>
+            <option value="">Choose one</option>
+            <option>Laptop</option>
+            <option>Desktop PC</option>
+            <option>Custom PC build</option>
+            <option>Monitor</option>
+            <option>Printer</option>
+            <option>Accessories / parts</option>
+            <option>Corporate / bulk order</option>
+          </select>
+        </label>
+        <div class="row">
+          <label>Budget (RM)
+            <input name="budget" inputmode="numeric" placeholder="e.g. 3500" autocomplete="off">
+          </label>
+          <label>Qty
+            <input name="qty" type="number" min="1" value="1" inputmode="numeric">
+          </label>
+        </div>
+        <label>Used for / notes
+          <input name="notes" placeholder="e.g. gaming, office work, need by Friday" autocomplete="off">
+        </label>
+        <label>Your name / company
+          <input name="name" autocomplete="name" placeholder="Optional">
+        </label>
+        <button class="btn wa" type="submit">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></svg>
+          Send request on WhatsApp
+        </button>
+      </form>
+    </section>
+
+    <section id="social-section" hidden>
+      <h2>Find PC Image online</h2>
+      <div class="socials" id="socials"></div>
+    </section>
+
+    <section>
+      <h2>Share my card</h2>
+      <div class="share">
+        <div>
+          <p>Scan the code or send the link to a friend who needs a laptop or PC.</p>
+          <button class="btn" id="share" type="button">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.6 13.5 6.8 4M15.4 6.5l-6.8 4"/></svg>
+            Share link
+          </button>
+        </div>
+        <img src="qr.png" alt="QR code for syhsolar.github.io/card" width="104" height="104">
+      </div>
+    </section>
+  </article>
+  <footer>PC Image Sdn Bhd</footer>
+</main>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script>
+  // ===== EDIT HERE =====
+  // Paste the full link for each one. Empty "" = hidden on the card.
+  const SOCIALS = {
+    Website:   "",
+    Facebook:  "",
+    Instagram: "",
+    TikTok:    ""
+  };
+  const CARD_URL = "https://syhsolar.github.io/card/";
+  const WA_NUMBER = "60196761077";
+  // =====================
+
+  const ICON = {
+    Website: '<circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/>',
+    Facebook: '<path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3Z"/>',
+    Instagram: '<rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/>',
+    TikTok: '<path d="M9 12a4 4 0 1 0 4 4V2a5 5 0 0 0 5 5"/>'
+  };
+  const box = document.getElementById("socials");
+  for (const [name, url] of Object.entries(SOCIALS)) {
+    if (!url) continue;
+    const a = document.createElement("a");
+    a.href = url; a.target = "_blank"; a.rel = "noopener";
+    a.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' + ICON[name] + '</svg>';
+    a.append(name);
+    box.append(a);
+  }
+  document.getElementById("social-section").hidden = !box.children.length;
+
+  const toast = msg => {
+    const t = document.getElementById("toast");
+    t.textContent = msg; t.classList.add("show");
+    setTimeout(() => t.classList.remove("show"), 2000);
+  };
+
+  document.getElementById("quote").addEventListener("submit", e => {
+    e.preventDefault();
+    const f = new FormData(e.target);
+    const v = k => (f.get(k) || "").toString().trim();
+    const lines = ["Hi Syahmi, I'd like a quotation please.", "", "Item: " + v("item"), "Qty: " + (v("qty") || "1")];
+    if (v("budget")) lines.push("Budget: RM " + v("budget"));
+    if (v("notes")) lines.push("Notes: " + v("notes"));
+    if (v("name")) lines.push("Name: " + v("name"));
+    window.open("https://wa.me/" + WA_NUMBER + "?text=" + encodeURIComponent(lines.join("\n")), "_blank", "noopener");
+  });
+
+  document.getElementById("share").addEventListener("click", async () => {
+    const data = { title: "Syahmi Afiq · PC Image", text: "Syahmi from PC Image, laptops, PCs and custom builds:", url: CARD_URL };
+    if (navigator.share) {
+      try { await navigator.share(data); } catch (_) {}
+      return;
+    }
+    try { await navigator.clipboard.writeText(CARD_URL); toast("Link copied"); }
+    catch (_) { prompt("Copy this link:", CARD_URL); }
+  });
+</script>
+</body>
+</html>
